@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      MISAKWAM
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <form (ngSubmit)="login()">
+    <ion-item>
+      <ion-label>Munchy</ion-label>
+      <ion-input type="text" [(ngModel)]="usuario.usuario" name="usuario"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Yaskap</ion-label>
+      <ion-input type="password" [(ngModel)]="usuario.contrasena" name="contrasena"></ion-input>
+    </ion-item>
+    <button ion-button type="submit" block>Keviar</button>
+  </form>
+</ion-content>

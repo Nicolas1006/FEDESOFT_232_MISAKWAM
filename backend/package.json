@@ -1,0 +1,24 @@
+{
+  "name": "ejemplo-cv",
+  "version": "1.0.0",
+  "description": "Proyecto ejemplo realizado el día 27/10/2018 en clase",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas1006/Prueba_Clase.git"
+  },
+  "author": "Nicolás",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas1006/Prueba_Clase/issues"
+  },
+  "homepage": "https://github.com/Nicolas1006/Prueba_Clase#readme",
+  "dependencies": {
+    "hapi": "^17.6.4",
+    "inert": "^5.1.1",
+    "pg": "^7.6.0"
+  }
+}
